@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Live Character Counter</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InspireMe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <div class="container">
-    <h2>📝 Write your message</h2>
-    <textarea id="message" rows="6" placeholder="Type here..."></textarea>
-    <p id="counter">0 / 100</p>
+    <h1>InspireMe</h1>
+    <div id="quote-box" class="fade">
+      <p id="quote">Click the button to get inspired!</p>
+      <span id="author">— Unknown</span>
+    </div>
+    <div class="buttons">
+      <button id="new-quote">Get Quote</button>
+      <a id="tweet-quote" href="#" target="_blank">Tweet this</a>
+    </div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
